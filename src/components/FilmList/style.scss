@@ -1,0 +1,14 @@
+.films-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-item-wrapper {
+  margin: 10px;
+}
+.NotFind {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,34 @@
+.side-bar {
+  // border: 2px solid gray;
+  // border-radius: 10px;
+  // padding: 10px;
+}
+
+.form {
+  margin-top: 20px;
+
+  &__title {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 8px;
+    font-weight: normal;
+  }
+  &__wrapper {
+    margin-top: 10px;
+    max-width: 300px;
+    border: 2px solid #e3e3e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  &__genres {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
